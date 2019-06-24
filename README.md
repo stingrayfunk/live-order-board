@@ -42,7 +42,13 @@ Please make sure to update tests as appropriate.
 
 ### Getting started
 
-(developer info for contributing to the package)
+(insert developer info for contributing to the package)
+
+    npm install
+
+### Build
+
+    npm run build
 
 ### Tests
 
