@@ -1,0 +1,31 @@
+{
+  "name": "@silver-bars/live-order-board",
+  "version": "1.0.0",
+  "description": "Silver bars live order board API",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "babel ./src -d ./lib --ignore ./src/test.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Sean McGowan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/src/**/*test.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
